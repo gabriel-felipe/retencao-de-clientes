@@ -334,9 +334,9 @@ h3 {
       display: block;
       font-size: 2rem;
     }
-    button {
+    .badge {
       flex-basis: 250px;
-      margin-left: 50px;
+      margin-left: 20px;
       display: block;
     }
   }
