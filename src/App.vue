@@ -56,8 +56,8 @@
       </div>
       <div class="content">
         <ul>
-          <li>Trouxe 27 mil de faturamento extra para uma pizzaria com uma mensagem automatizada na hora certa. A mensagem teve 14% de taxa de conversão</li>
-          <li>Ajudou uma loja de eletro-domésticos a faturar R$2.1 milhões de reais a mais no ano de 2022 com um mix de estratégias de retenção</li>
+          <li>Trouxe 27 mil de faturamento extra para uma pizzaria com uma mensagem automatizada na hora certa. A mensagem teve 14% de taxa de conversão.</li>
+          <li>Ajudou uma loja de eletro-domésticos a faturar R$2.1 milhões de reais a mais no ano de 2022 com um mix de estratégias de retenção.</li>
           <li>Gerou 17 mil de faturamento com única campanha com custo de menos de R$500 para uma loja de roupas mirando em um segmento específico dos seus clientes.</li>
         </ul>
       </div>
@@ -98,6 +98,7 @@
           <li><strong>V. Processos e Automatização</strong></li>
           <li>A. Por que é importante ter processos claros?</li>
           <li>B. Qual é o risco de não automatizar?</li>
+          <li>C. Como utilizar sistemas e tecnlogia ao seu favor?</li>
 
           <li><strong>VII. Estratégias de Retenção de Clientes</strong></li>
           <li>A. Comunicar para ser lembrado</li>
@@ -112,10 +113,10 @@
           <li>J. Educar para se diferenciar</li>
           <li>K. Atualizar para tranquilizar</li>
 
-          <li><strong>VIII. Conclusão</strong></li>
-
-          <li>A. Fazendo um diagnóstico da retenção de clientes</li>
-          <li>C. Os próximos passos e recomendações para melhorar sua retenção de clientes.</li>
+          <li><strong>VIII. Diagnóstico de Retenção</strong></li>
+          <li><strong>IX. Conclusão</strong></li>
+          <li>A. Os próximos passos</li>
+          <li>B. Recomendações para melhorar sua retenção de clientes</li>
         </ol>
       </div>
       <div class="content" style="justify-content: center; align-items: center">
