@@ -50,7 +50,7 @@
         <div class="description">
           <p class="author-description"><strong>Gabriel Chiminelli</strong>
             É empresário e engenheiro de software. Atualmente é CEO da Kevi uma startup que visa automatizar processos de retenção de clientes para empresas de diversos segmentos.
-            Nos últimos 5 deu consultoria sobre retenção de clientes à dezenas de empresas de tamanhos, setores e operações variadas.
+            Nos últimos 5 anos deu consultoria sobre retenção de clientes à dezenas de empresas de tamanhos, setores e operações variadas.
           </p>
         </div>
       </div>
