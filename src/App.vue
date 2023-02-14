@@ -305,7 +305,8 @@ h3 {
       justify-content: space-between;
       align-items: center;
       h1, .badge {
-        margin: 0;
+        margin-top: 0;
+        margin-bottom: 0;
       }
       h1 {
         padding: 0;
