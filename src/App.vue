@@ -4,7 +4,7 @@
       <div class="container">
         <h2>Oops, algo deu errado!</h2>
         <p>
-          Por favor tente novamente mais tarde ou contate o author diretamente.
+          Por favor tente novamente mais tarde ou contate o autor diretamente.
            <br /> <br />
 
           <a href="https://wa.me/5548991949721?text=Gostaria+de+saber+mais+sobre+o+livro" class="badge">Chamar no WhatsApp</a>
