@@ -144,7 +144,7 @@ export default {
       loading: false,
       showError: false,
       bookTitle: 'Clientes de Alta Fidelidade',
-      bookSubtitle: 'Descubra como manter seus clientes ativos, satisfeitos e recompensados para aumentar suas vendas',
+      bookSubtitle: 'Descubra como manter seus clientes ativos, satisfeitos e recompensados para aumentar suas vendas.',
       bookDescription: 'In this book, John Doe explores the best practices and techniques for writing clean, efficient, and maintainable code. He covers topics such as code organization, testing, debugging, and more, using real-world examples and practical tips.',
       bookSummary: 'Whether you are just starting out as a software engineer or you are a seasoned veteran, this book is a must-read for anyone looking to write code that is both elegant and effective.'
     }
