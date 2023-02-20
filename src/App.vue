@@ -20,48 +20,89 @@
         <h2 class="book-subtitle">{{ bookSubtitle }}</h2>
       </div>
     </div>
-
-    <div class="book-description">
-      <p>Você já pensou em quanto dinheiro seu negócio está deixando de ganhar por perder clientes frequentemente? A retenção de clientes é uma das estratégias mais importantes para o sucesso de um negócio, mas ainda é subestimada e negligenciada por muitos empresários. Neste livro, vamos explorar a fundo a importância da retenção de clientes e como implementar estratégias eficazes para melhorar seus resultados financeiros e alcançar o sucesso em longo prazo. Não perca mais tempo e oportunidades. Aprenda agora como manter seus clientes leais e aumentar sua receita.</p>
-      <p>Ao longo do livro, você também será apresentado à estratégias de retenção eficazes e definidas, permitindo que você tenha um ponto de partida claro para atingir seu objetivo de seguir vendendo mais para os seus clientes.</p>
-      <p>Imagine que você tenha uma loja de roupas e um cliente compra uma jaqueta. Se você enviar uma mensagem para ele, perguntando como ele está se sentindo com a jaqueta, e oferecer uma oferta para uma próxima compra, você estará criando um vínculo com esse cliente e aumentando as chances de ele retornar. Isso é apenas um exemplo do que você aprenderá neste livro. Pode parecer difícil controlar e fazer isso para todos os clientes individualmente no meio da operação diária, por isso esse livro lhe irá ajudar a implementar processos e estratégias claras que permitam você se organizar para dar a atenção que seus clientes merecem, conectando-se com eles de forma eficiente porém próxima, muito mais próxima que o seu concorrente.</p>
-      <p>Você também aprenderá como segmentar sua base de clientes, coletar informações valiosas e definir um cliente ativo. E se perder um cliente pode ter um custo enorme, este livro ensinará como entender e evitar esse custo. Além disso, você aprenderá a realizar um diagnóstico de retenção e avaliar a eficácia de suas estratégias.</p>
-      <p>Além disso, é explorado como avaliar a retenção de clientes através de métricas importantes, como a curva de retenção, faturamento de recompra, churn, LTV e tempo médio entre compras.</p>
-      <p>Em resumo, este livro é uma leitura obrigatória para qualquer empresário ou gerente de negócios que deseje melhorar a retenção de seus clientes e, consequentemente, aumentar seus lucros. Com as informações e estratégias que você aprenderá neste livro, você pode transformar sua empresa e ter uma base de clientes leal e satisfeita. Então, por que esperar?</p>
+    <div class="section">
+      <div class="container">
+        <div class="content">
+          <h3>Para quem é esse livro?</h3>
+        </div>
+        <div class="content">
+          <div>
+            <p>Você provavelmente já escutou que <strong>é até 7x mais barato vender para quem já é seu cliente</strong> que conquistar um novo. </p>
+            <p>Esse livro ensina estratégias práticas, com exemplos, de como atingir e automatizar esse resultado.</p>
+            <h4>Esse livro é para você caso você responda SIM para alguma dessas perguntas:</h4>
+            <ul>
+              <li>O mesmo cliente pode comprar de você 2x ou mais por ano?</li>
+              <li>Você gostaria de aumentar a frequência de compra dos seus clientes?</li>
+              <li>Você gostaria de saber mensurar melhor o quão fiel é a sua base de clientes?</li>
+              <li>Seus funcionários possuem tempo ocioso em momentos de baixo movimento que poderia ser utilizado para trabalhar sua base de clientes?</li>
+            </ul>
+            <h4>Esse livro <strong>com certeza</strong> é para você caso você não saiba alguma dessas respostas:</h4>
+            <ul>
+              <li>Quantos % do seu faturamento vem da sua base atual de clientes vs de novos clientes?</li>
+              <li>Quanto custa para o seu negócio perder um cliente?</li>
+              <li>Quando você considera que perdeu um cliente?</li>
+              <li>A sua base de clientes ativos está crescendo ou diminuindo nos últimos meses?</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="book-header fixed">
       <div class="content">
         <div>
           <h1 class="book-title">{{ bookTitle }}
           </h1>
-          <h2 class="book-subtitle">{{ bookSubtitle }}</h2>
+          <h2 class="book-subtitle">100% de garantia de satisfação ou seu dinheiro de volta.</h2>
         </div>
-        <button class="badge" @click="buy" v-if="!loading"><strong>Comprar agora</strong> <br /> De <span class="strike">R$89,90</span> por <em>R$39,90</em></button>
+        <button class="badge" @click="buy" v-if="!loading"><strong>Comprar agora</strong> <br /> De <span class="strike">R$59,90</span> por <em>R$24,90</em></button>
         <button class="badge" v-else> Processando... </button>
       </div>
     </div>
-    <div class="author-section">
-      <div class="content">
-        <h3> Sobre o Autor</h3>
+    <div class="section">
+      <div class="author-section">
+        <div class="content">
+          <h3> Sobre o Autor</h3>
 
-      </div>
-      <div class="content">
-        <img class="author-photo" src="./assets/author.jpeg"/>
-        <div class="description">
-          <p class="author-description"><strong>Gabriel Chiminelli</strong>
-            É empresário e engenheiro de software. Atualmente é CEO da Kevi uma startup que visa automatizar processos de retenção de clientes para empresas de diversos segmentos.
-            Nos últimos 5 anos deu consultoria sobre retenção de clientes à dezenas de empresas de tamanhos, setores e operações variadas.
-          </p>
+        </div>
+        <div class="content">
+          <img class="author-photo" src="./assets/author.jpeg"/>
+          <div class="description">
+            <p class="author-description"><strong>Gabriel Chiminelli</strong>
+              É empresário e engenheiro de software. Atualmente é CEO da Kevi uma startup que visa automatizar processos de retenção de clientes para empresas de diversos segmentos.
+              Nos últimos 5 anos deu consultoria sobre retenção de clientes à dezenas de empresas de tamanhos, setores e operações variadas.
+            </p>
+          </div>
+        </div>
+        <div class="content">
+          <ul>
+            <li>Trouxe 27 mil de faturamento extra para uma pizzaria com uma mensagem automatizada na hora certa. A mensagem teve 14% de taxa de conversão e exigia 0 esforço.</li>
+            <li>Ajudou uma loja de eletro-domésticos a faturar R$2.1 milhões de reais a mais no ano de 2022 com um mix de estratégias de retenção.</li>
+            <li>Gerou 17 mil de faturamento com única campanha com custo de menos de R$500 para uma loja de roupas mirando em um segmento específico dos seus clientes.</li>
+          </ul>
         </div>
       </div>
-      <div class="content">
-        <ul>
-          <li>Trouxe 27 mil de faturamento extra para uma pizzaria com uma mensagem automatizada na hora certa. A mensagem teve 14% de taxa de conversão.</li>
-          <li>Ajudou uma loja de eletro-domésticos a faturar R$2.1 milhões de reais a mais no ano de 2022 com um mix de estratégias de retenção.</li>
-          <li>Gerou 17 mil de faturamento com única campanha com custo de menos de R$500 para uma loja de roupas mirando em um segmento específico dos seus clientes.</li>
-        </ul>
+      <div class="container content">
+        <h3>O que esse livro pode fazer por você?</h3>
       </div>
+      <div class="container content">
+        <div>
+          <ul>
+            <li>Te mostrar que fidelização e retenção de clientes vai muito além de dar descontos.</li>
+            <li>Te ensinar 12 estratégias de fidelização que vão aumentar seu faturamento.</li>
+            <li>Elevar seus conhecimentos como empresário e gestor fornecendo uma maneira analítica de olhar para sua base de clientes e avaliar seus resultados.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container content" style="justify-content: center">
+        <button class="badge" @click="buy" v-if="!loading"><strong>Quero ser um empresário melhor</strong> <br /> De <span class="strike">R$59,90</span> por <em>R$24,90</em></button>
+        <button class="badge" v-else> Processando... </button>
+      </div>
+
     </div>
+    <div class="book-description">
+      <p>Em resumo, este livro é uma leitura obrigatória para qualquer empresário ou gerente de negócios que deseje melhorar a retenção de seus clientes e, consequentemente, aumentar seus lucros. Com as informações e estratégias que você aprenderá neste livro, você pode transformar sua empresa e ter uma base de clientes leal e satisfeita. Então, por que esperar?</p>
+    </div>
+
     <div class="summary-section">
       <div class="content">
         <h3> Sumário e conteúdo</h3>
@@ -80,17 +121,20 @@
           <li>A. Como coletar informações valiosas?</li>
           <li>B. O que é um cliente ativo?</li>
           <li>C. Como você sabe quando perdeu um cliente?</li>
-          <li>D. Quanto custa a perda de um cliente?</li>
-          <li>E. Como segmentar sua base de clientes para obter resultados máximos?</li>
+          <li>D. Qual o tamanho da sua base de clientes ativos?</li>
+          <li>E. Quanto custa perder um cliente?</li>
+          <li>F. Como segmentar sua base de clientes para obter resultados máximos?</li>
+          <li>G. Análise RFM, o que é e como realizar?</li>
+          <li>H. Quem são seus clientes A na curva ABC?</li>
 
           <li><strong>IV. As métricas</strong></li>
 
           <li>A. Como medir a retenção de clientes?</li>
-          <li>B. Entendendo a curva de retenção</li>
-          <li>C. O que é faturamento de recompra?</li>
-          <li>D. Analisando a sua taxa de recompra</li>
-          <li>E. Quantos dias se passam entre compras?</li>
-          <li>F. O que é Churn para o seu negócio?</li>
+          <li>B. O que é faturamento de recompra?</li>
+          <li>C. Qual sua taxa de aproveitamento da base de clientes?</li>
+          <li>D. Entendendo a curva de retenção</li>
+          <li>E. Analisando a sua taxa de recompra</li>
+          <li>F. Qual o tempo médio entre compras?</li>
           <li>G. O valor do tempo de vida do cliente (LTV)</li>
           <li>H. CLV vs LTV, qual a diferença?</li>
           <li>I. Entendendo a análise de safras (Cohort)</li>
@@ -116,12 +160,13 @@
           <li><strong>VIII. Diagnóstico de Retenção</strong></li>
           <li><strong>IX. Conclusão</strong></li>
           <li>A. Os próximos passos</li>
-          <li>B. Recomendações para melhorar sua retenção de clientes</li>
+          <li>B. Dicas de ferramentas</li>
+          <li>C. Recomendações para melhorar sua retenção de clientes</li>
         </ol>
       </div>
       <div class="content" style="justify-content: center; align-items: center">
         <br /> <br />
-        <button class="badge" @click="buy" v-if="!loading"><strong>Comprar agora</strong> <br /> De <span class="strike">R$89,90</span> por <em>R$39,90</em></button>
+        <button class="badge" @click="buy" v-if="!loading"><strong>Comprar agora</strong> <br /> De <span class="strike">R$59,90</span> por <em>R$24,90</em></button>
         <button class="badge" v-else> Processando... </button>
       </div>
     </div>
@@ -184,7 +229,7 @@ html, body {
   padding: 0;
   font-family: 'Sarabun', sans-serif;
   @media(max-width: 500px) {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -221,11 +266,29 @@ ol {
   }
 }
 
+ul {
+  li {
+    margin-top: 10px;
+    font-size: 1.1rem;
+  }
+}
+
 h3 {
   text-align: center;
   width:  100%;
   color: $dark-accent;
   font-size: 1.5rem;
+}
+
+h4 {
+  text-align: center;
+  width:  100%;
+  color: $dark-accent;
+  font-size: 1.1rem;
+  strong {
+    color: #333;
+    font-weight: 900;
+  }
 }
 
 .error {
